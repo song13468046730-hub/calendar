@@ -1,0 +1,23 @@
+# dependencies
+node_modules/
+server/node_modules/
+
+# env
+.env
+server/.env
+
+# ignore models (关键)
+models/
+server/models/
+
+# logs
+*.log
+
+# build
+dist/
+build/
+
+# OS / editor
+.vscode/
+.idea/
+.DS_Store
